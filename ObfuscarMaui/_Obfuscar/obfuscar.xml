@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <Var name="RegenerateDebugInfo" value="false" />
+  <Var name="MarkedOnly" value="false" />
+  <Var name="RenameProperties" value="true" />
+  <Var name="RenameEvents" value="true" />
+  <Var name="RenameFields" value="true" />
+  <Var name="KeepPublicApi" value="true" />
+  <Var name="HidePrivateApi" value="true" />
+  <Var name="ReuseNames" value="false" />
+  <Var name="HideStrings" value="true" />
+  <Var name="OptimizeMethods" value="true" />
+  <Var name="SuppressIldasm" value="true" />
+  <Var name="AnalyzeXaml" value="true" />
+  <Var name="UseUnicodeNames" value="false" />
+  <Var name="UseKoreanNames" value="true" />
+  <Module file="$(InPath)\ObfuscarMaui.dll">
+    <SkipType name="*AnonymousType*" skipProperties="true" skipMethods="true" skipFields="true" skipEvents="true" skipStringHiding="true" />
+  </Module>
+  <AssemblySearchPath path="..\ObfuscarMaui\" />
+  <AssemblySearchPath path="C:\.nuget\packages\googlegson\2.11.0.3\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\microsoft.extensions.configuration.abstractions\9.0.0\lib\net9.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\microsoft.extensions.configuration\9.0.0\lib\net9.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\9.0.0\lib\net9.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\microsoft.extensions.dependencyinjection\9.0.0\lib\net9.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\microsoft.extensions.logging.abstractions\9.0.0\lib\net9.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\microsoft.extensions.logging.debug\9.0.0\lib\net9.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\microsoft.extensions.logging\9.0.0\lib\net9.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\microsoft.extensions.options\9.0.0\lib\net9.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\microsoft.extensions.primitives\9.0.0\lib\net9.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\microsoft.maui.controls.core\9.0.14\lib\net9.0-android35.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\microsoft.maui.controls.xaml\9.0.14\lib\net9.0-android35.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\microsoft.maui.core\9.0.14\lib\net9.0-android35.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\microsoft.maui.essentials\9.0.14\lib\net9.0-android35.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\microsoft.maui.graphics\9.0.14\lib\net9.0-android35.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.android.glide.annotations\4.16.0.6\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.android.glide.disklrucache\4.16.0.6\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.android.glide.gifdecoder\4.16.0.6\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.android.glide\4.16.0.6\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.activity.ktx\1.9.2.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.activity\1.9.2.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.annotation.experimental\1.4.1.6\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.annotation.jvm\1.8.2.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.annotation\1.8.2.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.appcompat.appcompatresources\1.7.0.3\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.appcompat\1.7.0.3\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.arch.core.common\2.2.0.13\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.arch.core.runtime\2.2.0.13\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.browser\1.8.0.6\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.cardview\1.0.0.31\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.collection.jvm\1.4.3.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.collection.ktx\1.4.3.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.collection\1.4.3.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.concurrent.futures\1.2.0.3\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.constraintlayout.core\1.0.4.16\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.constraintlayout\2.1.4.16\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.coordinatorlayout\1.2.0.17\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.core.core.ktx\1.13.1.5\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.core\1.13.1.5\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.cursoradapter\1.0.0.29\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.customview.poolingcontainer\1.0.0.15\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.customview\1.1.0.28\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.documentfile\1.0.1.29\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.drawerlayout\1.2.0.13\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.dynamicanimation\1.0.0.29\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.emoji2.viewshelper\1.5.0.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.emoji2\1.5.0.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.exifinterface\1.3.7.5\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.fragment.ktx\1.8.3.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.fragment\1.8.3.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.interpolator\1.0.0.29\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.legacy.support.core.utils\1.0.0.29\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.lifecycle.common.jvm\2.8.5.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.lifecycle.common\2.8.5.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.lifecycle.livedata.core.ktx\2.8.5.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.lifecycle.livedata.core\2.8.5.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.lifecycle.livedata\2.8.5.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.lifecycle.process\2.8.5.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.lifecycle.runtime.android\2.8.5.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.lifecycle.runtime.ktx.android\2.8.5.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.lifecycle.runtime.ktx\2.8.5.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.lifecycle.runtime\2.8.5.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.lifecycle.viewmodel.android\2.8.5.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.lifecycle.viewmodel.ktx\2.8.5.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.lifecycle.viewmodel\2.8.5.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.lifecycle.viewmodelsavedstate\2.8.5.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.loader\1.1.0.29\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.localbroadcastmanager\1.1.0.17\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.navigation.common\2.8.0.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.navigation.fragment\2.8.0.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.navigation.runtime\2.8.0.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.navigation.ui\2.8.0.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.print\1.0.0.29\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.profileinstaller.profileinstaller\1.3.1.12\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.recyclerview\1.3.2.8\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.resourceinspection.annotation\1.0.1.17\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.savedstate.savedstate.ktx\1.2.1.13\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.savedstate\1.2.1.13\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.security.securitycrypto\1.1.0.2-alpha06\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.slidingpanelayout\1.2.0.17\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.startup.startupruntime\1.1.1.17\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.swiperefreshlayout\1.1.0.24\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.tracing.tracing\1.2.0.7\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.transition\1.5.1.2\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.vectordrawable.animated\1.2.0.3\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.vectordrawable\1.2.0.3\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.versionedparcelable\1.2.0.7\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.viewpager\1.0.0.29\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.viewpager2\1.1.0.3\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.window.extensions.core.core\1.0.0.11\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.androidx.window\1.3.0.3\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.google.android.material\1.11.0.3\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.google.code.findbugs.jsr305\3.0.2.16\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.google.crypto.tink.android\1.15.0.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.google.errorprone.annotations\2.30.0.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.google.guava.listenablefuture\1.0.0.24\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.jetbrains.annotations\24.1.0.8\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.kotlin.stdlib.common\2.0.10.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.kotlin.stdlib\2.0.10.1\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.kotlinx.atomicfu.jvm\0.25.0.3\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.kotlinx.atomicfu\0.25.0.3\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.kotlinx.coroutines.android\1.8.1.3\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.kotlinx.coroutines.core.jvm\1.8.1.3\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.kotlinx.coroutines.core\1.8.1.3\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.kotlinx.serialization.core.jvm\1.7.1.3\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\.nuget\packages\xamarin.kotlinx.serialization.core\1.7.1.3\lib\net8.0-android34.0\" />
+  <AssemblySearchPath path="C:\Program Files\dotnet\packs\Microsoft.Android.Ref.35\35.0.39\ref\net9.0\" />
+  <AssemblySearchPath path="C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.2\ref\net9.0\" />
+</Include>
