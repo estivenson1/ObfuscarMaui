@@ -1,0 +1,9 @@
+﻿using Foundation;
+
+namespace ObfuscarMaui;
+
+[Register("AppDelegate")]
+public class AppDelegate : MauiUIApplicationDelegate
+{
+	protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+}
